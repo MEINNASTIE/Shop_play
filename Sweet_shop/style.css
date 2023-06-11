@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 :root {
@@ -11,4 +12,55 @@
     --tomato: #BA4444;
     --black: #1C1D1D;
 }
+
+body {
+    margin-top: 200px;
+    font-family: 'Tenor Sans', sans-serif;
+    color: var(--black);
+}
+
+/* NAV SECTION ************/
+
+nav {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
+
+.primary_nav {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.logo img {
+    width: 90px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.shopping {
+    display: flex;
+}
+
+.secondary_nav ul {
+    display: flex;
+    padding: 20px;
+    list-style-type: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.secondary_nav ul li {
+    padding: 20px;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+
+
 
