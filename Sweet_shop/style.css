@@ -1,0 +1,14 @@
+/* SWEET SHOP BASE ************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --yellow: rgba(255, 196, 57, 1);
+    --tomato: #BA4444;
+    --black: #1C1D1D;
+}
+
